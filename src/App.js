@@ -1,27 +1,27 @@
-import logo from "./logo.svg";
+import React from "react";
+import ReviewedProducts from "./reviewedProducts.js";
 import "./App.css";
-//import "./db.js";
 
 function App() {
+  <ReviewedProducts></ReviewedProducts>;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <div>Hello{}</div>
+    <div className="page">
+      <ReviewedProducts></ReviewedProducts>
     </div>
   );
 }
 
 export default App;
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <Navigation></Navigation>
+//       <Profile></Profile>
+//       <TweetForm></TweetForm>
+//       <TweetList></TweetList>
+//     </div>
+//   );
+// }
+
+// export default App;
